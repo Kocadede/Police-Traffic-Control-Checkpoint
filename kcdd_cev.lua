@@ -173,8 +173,8 @@ function playerAnim()
     -- Citizen.Wait(1000)
 end
 
-RegisterNetEvent('SpikeTrap')
-AddEventHandler('SpikeTrap', function()
+RegisterNetEvent('Spike')
+AddEventHandler('Spike', function()
     local ped = PlayerPedId()
     local coords, forward = GetEntityCoords(ped), GetEntityForwardVector(ped)
     local objectCoords = (coords + forward * 1.0)
@@ -190,7 +190,7 @@ end)
 RegisterCommand('spike', function(source)
     if PlayerData.job.name == 'police' then
         
-        TriggerEvent('SpikeTrap')
+        TriggerEvent('Spike')
     else
         TriggerEvent('sup-notif', 'Polis değilsiniz.', 2)
     end
