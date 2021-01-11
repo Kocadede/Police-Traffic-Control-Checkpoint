@@ -44,7 +44,7 @@ function OpenKcddMenu()
 		
         if data.current.value == 'HastaneOnu' then
             menu.close()
-            exports["np-taskbar"]:taskBar(10000, 'Çevirme Noktası Kuruluyor')
+            exports["test-taskbar"]:taskBar(10000, 'Çevirme Noktası Kuruluyor')
             HastaneOnu()
         elseif data.current.value == 'kapat' then
             menu.close()
