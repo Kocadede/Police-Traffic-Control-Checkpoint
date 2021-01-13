@@ -4,6 +4,8 @@ When you create it, it doesn’t go until the restart
 It’s in spike’s command.
 You have to adjust the taskbar.
 
+discord.gg/cZXCewdrHP
+
 -Update
 added fxmanifest.lua 
 
