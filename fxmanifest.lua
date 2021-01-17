@@ -2,5 +2,5 @@ fx_version 'adamant'
 
 game 'gta5'
 
-client_scripts 'kcdd_cev.lua'
+client_scripts 'client.lua'
 
